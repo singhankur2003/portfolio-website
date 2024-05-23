@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+    overflow: hidden;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #edf1fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+li {
+    list-style: none;
+    cursor: pointer;
+}
+logo {
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+}
+button {
+    background-color: rgb(18,155,155);
+    padding: 5px 10px;
+    margin-left: 3vw;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 600;
+    width: fit-content;
+    transition: all 0.5s ease-in-out;
+    align-items: center;
+    justify-content: center;
+}
+button:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    transform: scale(1.05); 
+}
+nav {
+    display: flex;
+    width: 100%;
+    height: 7vw;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5vw 3vw;
+    background-color: rgb(20, 169, 55);
+}
+nav .logo {
+    font-weight: 500;
+    font-size: 30px;
+}
+nav ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-weight: 500;
+}
+nav ul li{
+    transition: all 0.5s ease-in-out;
+    font-weight: 500;
+    text-decoration: underline;
+}
+nav ul li a{
+    font-weight: 500;
+}
+nav ul li:hover {
+    font-weight: 1000;
+    transform: scale(1.05);
+}
+.serach-field {
+    display: flex;
+    gap: 35px;
+}
+nav input {
+    padding: 6px 10px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+}
+.Hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 3vw;
+    padding: 0 2vw;
+}
+.Hero-left-section {
+    width: 60%;
+    height: 100%;
+}
+.Hero-left-section h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+.Hero-left-section h1 span {
+    color: rgb(18,155,155);
+    font-weight: 900;
+    font-size: 2.5rem;
+    
+}
+.Hero-left-section p {
+    font-weight: 500;
+}
+.Hero-left-section p span {
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(18,155,155);
+    display: flex;
+}
+.Hero-right-section {
+    width: 40%;
+}
+.Hero-right-section buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30%;
+}
+.Hero-right-section img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+footer p {
+    font-weight: 700;
+    background-color: brown;
+}
+footer .icons {
+    display: flex;
+    gap: 30%;
+    align-items: center;
+}
+footer ul {
+    display: flex;
+    gap: 30%;
+    align-items: center;
+    font-size: large;
+}
+footer ul li a i:hover {
+    display: flex;
+    align-items: center;
+    font-size: 50%;
+    margin-inline-end: auto;
+}
+.icons i{
+    font-size: 2vw;
+    gap: 30px;
+    margin-bottom: 50px;
+}
